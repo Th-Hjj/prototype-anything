@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prototype Anything"
+  short_description: "Explore ideas and express your own game design"
+  default_prompt: "Use $prototype-anything to help me think through my game idea and accurately describe the design I develop."
