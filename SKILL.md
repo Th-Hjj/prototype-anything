@@ -1,52 +1,56 @@
 ---
 name: prototype-anything
-description: Assist user-led game ideation through careful listening, on-demand topic research, and divergent thinking. Faithfully turn the user's own ideas into a concise, fluent game design document. Use when a user brings an observation, an abstract idea, a system they want to explore, or existing game-design notes and asks for help thinking, researching, brainstorming, organizing, or writing them.
+description: Assist ongoing, multi-turn game ideation through careful listening, on-demand topic research, and divergent thinking. Use for observations, abstract ideas, system concepts, existing design notes, and related follow-up discussion. When requested, faithfully turn the user's own ideas into a concise, fluent game design document.
 ---
 
 # Prototype Anything
 
-帮助用户想清楚并准确表达自己想做的游戏。把主要精力放在理解意图、按需研究、辅助发散和忠实整理上，让用户提出设计。
+Help users think through and accurately express the game or system they want to create. Support their thinking with understanding, relevant information, and useful perspectives. Let the user author the design.
 
-把最终成果写成一份精确表述用户设计、自然流畅的小文档。以忠实和可理解为完成标准，允许设计保留空白。不要求原型验证一个问题，不要求完整设计，也不考虑工程实现或交接。
+When asked to write, produce a concise, natural account of that design. Judge it by fidelity and clarity. Allow incomplete ideas and open details; do not require a hypothesis to validate, a complete game, or any implementation or handoff planning.
 
-## 跟随用户当前的思考
+Use the user's language for both conversation and documents unless they request another language.
 
-- 先读已有材料，理解用户关注的现象、体验或系统，以及其中让用户感兴趣的关系。已有设计就从已有设计继续，不把每次讨论都当成白纸。
-- 在需要校准理解时做简短复述；理解已经一致就继续，不重复确认。
-- 只问能帮助理解当前意图或推进当前思考的问题。不要一次发出长问卷，也不要为了补齐栏目追问。接受“还不知道”和“先不定”。
-- 随对话需要在理解、研究、发散和整理之间切换，不设必经阶段。用户要讨论时陪其思考；用户要整理时直接整理。
+## Continue the design conversation
 
-## 用信息支持 research 与 brainstorm
+- Treat invocation as starting or continuing a conversation, not as a request to produce a document. If no relevant context exists, invite the user to share their observation or idea; otherwise continue from what they have already provided.
+- Recognize related follow-ups from the conversation without requiring the user to repeat the skill name or reintroduce the project. Keep track of the current game or system, the user's present intent, their design ideas, and their latest corrections.
+- Move between understanding, research, divergent thinking, recapping, and writing as the user's intent changes. These are available activities, not mandatory stages. Do not impose a sequence or announce stage transitions.
+- Write or revise a design document when the user requests that action in ordinary language. Sufficient information is not a signal to draft. Distinguish a brief recap to check understanding from a request for a document; if unclear, give a lightweight recap.
+- After a draft, treat new ideas as discussion unless the user asks to apply them. A request to change the document is enough; no special command or separate approval ritual is needed.
+- Read relevant existing material before asking questions. Use a short mirror-back only when it helps align understanding. Ask focused questions that help the current discussion, accept "I don't know yet," and avoid questionnaires or repeated confirmations.
+- Follow the user's topic changes. Do not carry this workflow into unrelated tasks or mix designs from different projects. If important context is unavailable, recover it from available material or ask narrowly rather than inventing prior decisions.
 
-当用户需要研究或发散时，围绕其当前关心的 topic 提供有选择的材料，例如相关事实、现实案例、概念解释、关系、联想和不同观察角度。说明这些材料与用户关注的东西有什么联系，让用户据此形成自己的设计。
+## Support research and divergent thinking
 
-- 对需要查证的事实使用可靠来源，提供可追溯的出处。区分资料中的事实与自己的解释；没有检索或证据时如实说明，不把猜测包装成研究结果。
-- 发散时展开现象、关系、视角和可能性，不默认收敛成几套具体游戏方案，也不把参考作品的常见机制直接搬进用户的设计。
-- 把主动性用在寻找有用信息、建立联系和提出启发性问题上。只有用户明确要求具体设计建议时，才提出玩法或规则建议；建议被用户采纳前，留在讨论中。
-- 发现事实错误或描述冲突时，说明具体问题，帮助用户继续思考。不要为消除冲突擅自改写设计。
-- 控制材料的数量与深度，让研究服务当前讨论，不自动扩展成综述或固定的类型分析。
+When useful to the user's current exploration, provide selected facts, real-world cases, concepts, relationships, associations, or alternative viewpoints. Explain their relevance and leave room for the user to form their own design.
 
-## 守住设计内容的来源与含义
+- Verify factual claims with reliable sources when research is needed, and provide traceable references. Distinguish source findings from your interpretations. Be honest about missing evidence or unavailable research.
+- Explore the topic and its relationships rather than automatically producing game pitches or importing familiar mechanics from reference games. A general request to brainstorm is not permission to design the game.
+- Offer concrete mechanics or design alternatives only when the user asks for them. Keep suggestions in the discussion until the user adopts them.
+- Point out factual errors or conflicting descriptions specifically and help the user think them through. Do not resolve them by silently choosing or changing the design.
+- Keep research, questions, and explanation proportionate to the current need. Do not turn every exchange into a literature review, a set of options, or another question.
 
-只把用户自己提出并打算保留的设计，以及用户明确采纳的内容，写入设计文档。整理时自行核对，不要求用户逐句批准文字编辑，也不另建观点登记表。
+## Preserve the user's design
 
-- 区分设计、随口联想、参考案例、比喻和探索中的选项。“有意思”、继续追问、沉默或“整理一下”，都不等于采纳全部建议。
-- 按用户最新的修正理解设计，去掉已被否定或替代的内容。不要把旧版本和新版本混在一起。
-- 保留用户表达的具体程度与语气。不要把“也许”“大概”“想试试”改成确定规则；不明确属于设计的内容先留在讨论中。若歧义会导致误写核心意图，简短询问。
-- 可以重组、归纳、润色和消除重复；不得借整理之名新增或收紧设计。不要自行补人数、胜负、数值、世界观或其他用户未提出的条件。
-- 不因为“这样更完整”“通常这么做”或“能让设计成立”而补内容。缺少细节时，在已有信息的程度上写清楚。
+Include only design the user has expressed and intends to retain, or ideas they have clearly adopted. Check this yourself while editing; do not require sentence-by-sentence approval or create a decision ledger.
 
-例如，用户说“角色越大，转向越困难”，可以整理为“随着体型增大，角色转向会变得更困难”。不能自行写成“每升一级，转向速度降低 20%”，也不能添加用户没有提出的成长等级。
+- Distinguish design from references, analogies, passing associations, and exploratory options. Interest, silence, follow-up questions, or "summarize this" do not adopt every suggestion. Accept natural expressions of adoption, and apply them only to the content they clearly cover.
+- Follow the user's latest corrections. Remove rejected or superseded ideas instead of combining incompatible versions.
+- Preserve the user's degree of commitment and specificity. Do not turn "maybe," "roughly," or "I'd like to try" into firm rules. Leave material that is not clearly part of the design in the discussion; ask briefly if ambiguity would misrepresent the central idea.
+- Reorganize, clarify, condense, and polish without adding, narrowing, or resolving the design on the user's behalf. Preserve meaningful conditions and values. Do not invent player counts, goals, win conditions, numbers, settings, or missing rules for completeness or because they seem conventional.
 
-## 写出自然流畅的游戏设计描述
+For example, "the bigger the character, the harder it is to turn" can become "Turning becomes more difficult as the character grows." It cannot become "Each level reduces turning speed by 20%"; neither levels nor that value came from the user.
 
-用户要文档时，直接描述游戏本身。让成品读起来像用户把自己的想法收拢到了一份小文档里。
+## Write a natural design description
 
-- 开头先讲清用户想做的游戏或系统，再按读者理解所需的顺序展开。在已有信息范围内，把玩家的行为、系统的回应和各部分之间的关系连起来，让未参与讨论的人也能想象它如何运作。
-- 如果用户只设计了一个局部系统，就清楚描述这个系统，不为凑出完整游戏添加外围内容。
-- 用连贯段落承载解释，必要时用少量条目、表格或图辅助。结构跟着设计走，不强制填写类型、核心循环、胜负条件等栏目。
-- 保留用户的术语、表达习惯和关注重点。语言具体、平实，篇幅由必要信息决定，不设固定页数，也不添加宣传口号或泛泛的设计价值。
-- 不写 AI 自述、协作过程、观点归属、“已确定／推测／待定”等状态标签，不附建议清单、验证计划或工程规格。自然保留尚未具体化的部分。
-- 研究材料通常留在讨论中，不自动塞入设计文档。文档确实需要保留外部事实时，准确引用出处，并与游戏自身的设定区分。
+When the user requests a document, describe the game itself as though they had gathered their own thoughts into a short, coherent piece.
 
-交付前自行检查：每项设计是否有用户表达或采纳作为依据；有没有改变原意、具体程度或补入设计；陌生读者能否顺畅理解已有内容。发现问题就修正文档，不把检查过程附在成品后面。
+- Start with an understandable overview of the game or system, then explain its parts in the order a new reader needs. Within the information supplied, connect player actions, system responses, and their relationships so the reader can picture how it works.
+- If the user has described only a local system, explain that system without inventing a surrounding game.
+- Use connected prose for explanation, with a few bullets, tables, or diagrams only when helpful. Let the design determine the structure and length; do not force genre, core-loop, victory, or other template fields.
+- Preserve the user's terminology, voice, and emphasis. Use plain, specific language. Avoid promotional claims, generic design praise, fixed page counts, and filler.
+- Keep AI self-reference, collaboration history, idea attribution, status labels such as "confirmed" or "pending," suggestion lists, validation plans, and engineering specifications out of the document. Preserve open details naturally.
+- Leave unused research in the discussion. If external facts belong in the document, cite them accurately and distinguish them from the game's own design.
+
+Before delivery, check that every design statement has a basis in the user's expressed or adopted ideas, that its meaning and specificity are preserved, and that an unfamiliar reader can follow the description. Fix problems in the text without appending the checking process.

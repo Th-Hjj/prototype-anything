@@ -1,4 +1,7 @@
 interface:
   display_name: "Prototype Anything"
   short_description: "Explore ideas and express your own game design"
-  default_prompt: "Use $prototype-anything to help me think through my game idea and accurately describe the design I develop."
+  default_prompt: "Use $prototype-anything to start or continue a game-design conversation, following what I want to explore or do next."
+
+policy:
+  allow_implicit_invocation: true
