@@ -6,11 +6,11 @@
 
 **Prototype Anything** helps you explore an observation, an abstract idea, or a game system—and express *your* design in a clear, concise document.
 
-It can research related topics, offer perspectives, and help you think things through. **You make the design decisions.**
+It can research related topics, offer perspectives, and help you think things through. **You will be the one directing the designs.**
 
 ### How to use
 
-1. Install or enable the skill in a compatible agent, then invoke `prototype-anything` (for example, `$prototype-anything` in Codex).
+1. Install or enable the skill in a compatible agent, then invoke `prototype-anything`.
 2. Share what you've noticed or want to create. Keep talking naturally: ask for research, brainstorming, or a recap whenever helpful.
 3. When you're ready, ask for a design document. It will describe only the ideas you've proposed or adopted, without inventing missing details or planning implementation.
 
@@ -28,10 +28,10 @@ It can research related topics, offer perspectives, and help you think things th
 
 ### 如何使用
 
-1. 在支持 Skill 的 Agent 中安装或启用它，然后调用 `prototype-anything`（例如在 Codex 中使用 `$prototype-anything`）。
-2. 说说你观察到了什么，或想做什么。之后直接自然地继续聊天，需要时让它研究资料、一起发散或总结当前想法。
-3. 想写文档时再提出要求。文档只描述你提出或采纳的设计，不擅自补充细节，也不考虑工程实现。
+1. 在支持 Skill 的 Agent 中安装或启用它，然后调用 `prototype-anything`。
+2. 说明你观察到了什么，或想做什么，之后在对话中逐渐完善设计。需要时可提出让它研究资料、发散思维或总结当前想法。
+3. 需要文档时需主动提出。文档只包含你明确采纳的设计，ai不会擅自补充细节，也会不考虑工程实现。
 
-**试试看：** `$prototype-anything 我观察到一个挺有意思的现象……想一起探索一下。`
+**例：** `$prototype-anything 我观察到一个挺有意思的现象……想把这个做成一个xxx的游戏。`
 
 [查看 Skill 指令](./SKILL.md)
