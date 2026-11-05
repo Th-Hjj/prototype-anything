@@ -30,7 +30,7 @@ It can research related topics, offer perspectives, and help you think things th
 
 1. 在支持 Skill 的 Agent 中安装或启用它，然后调用 `prototype-anything`。
 2. 说明你观察到了什么，或想做什么，之后在对话中逐渐完善设计。需要时可提出让它研究资料、发散思维或总结当前想法。
-3. 需要文档时需主动提出。文档只包含你明确采纳的设计，ai不会擅自补充细节，也会不考虑工程实现。
+3. 获取文档需主动提出。文档只包含你明确采纳的设计，ai不会擅自补充细节，也会不考虑工程实现。
 
 **例：** `$prototype-anything 我观察到一个挺有意思的现象……想把这个做成一个xxx的游戏。`
 
