@@ -1,6 +1,8 @@
 ---
 name: prototype-anything
-description: Assist ongoing, multi-turn game ideation through careful listening, on-demand topic research, and divergent thinking. Use for observations, abstract ideas, system concepts, existing design notes, and related follow-up discussion. When requested, faithfully turn the user's own ideas into a concise, fluent game design document.
+description: Help a user explore, develop and articulate their own game or game-system idea over a multi-turn conversation, and write a faithful design document when asked. Use when the user brings an observation, concept or design notes they want to turn into a game. Not for implementing prototypes or researching how an existing game works.
+metadata:
+  version: "0.2.0"
 ---
 
 # Prototype Anything
@@ -25,6 +27,8 @@ Use the user's language for both conversation and documents unless they request 
 ## Support research and divergent thinking
 
 When useful to the user's current exploration, provide selected facts, real-world cases, concepts, relationships, associations, or alternative viewpoints. Explain their relevance and leave room for the user to form their own design.
+
+A useful contribution changes what the user can see in their own idea: the mechanism behind their observation, a real case where it plays out differently, or a tension between two things they said.
 
 - Seek sources that are most relevant and useful to the user's exploration. Evaluate information in context, distinguish facts from speculation, and provide references when helpful.
 - Explore the topic and its relationships rather than automatically producing game pitches or importing familiar mechanics from reference games. A general request to brainstorm is not permission to design the game.
