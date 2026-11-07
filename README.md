@@ -2,6 +2,14 @@
 
 [MIT](LICENSE) · v0.2.0
 
+## Install / 安装
+
+```bash
+npx skills add Th-Hjj/prototype-anything
+```
+
+Add `-g` to install globally. / 加上 `-g` 可安装到用户级。
+
 [English](#english) | [中文](#中文)
 
 ## English
@@ -14,7 +22,7 @@ It can research related topics, offer perspectives, and help you think things th
 
 ### How to use
 
-1. Copy `skills/prototype-anything` into a compatible agent's skills directory (or enable it there), then invoke `prototype-anything`.
+1. Install with the command above (or copy `skills/prototype-anything` into your agent's skills directory), then invoke `prototype-anything`.
 2. Share what you've noticed or want to create. Keep talking naturally: ask for research, brainstorming, or a recap whenever helpful.
 3. When you're ready, ask for a design document. It will describe only the ideas you've proposed or adopted, without inventing missing details or planning implementation.
 
@@ -34,7 +42,7 @@ It can research related topics, offer perspectives, and help you think things th
 
 ### 如何使用
 
-1. 将 `skills/prototype-anything` 复制到支持 Skill 的 Agent 的 skills 目录（或在其中启用它），然后调用 `prototype-anything`。
+1. 使用上方命令安装（或手动复制 `skills/prototype-anything` 到 Agent 的 skills 目录），然后调用 `prototype-anything`。
 2. 说明你观察到了什么，或想做什么，之后在对话中逐渐完善设计。需要时可提出让它研究资料、发散思维或总结当前想法。
 3. 获取文档需主动提出。文档只包含你明确采纳的设计，ai不会擅自补充细节，也不会考虑工程实现。
 
